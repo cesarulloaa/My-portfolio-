@@ -443,6 +443,21 @@ form{
     transform: scale(1.2);
 }
 
+
+.formulario-mensaje-exito{
+    font-size: 14px;
+    color: #119200;
+    text-align: center;
+    display: none; 
+}
+
+.formulario-mensaje-exito-activo{
+    display: block;
+    
+}
+
+
+
 /*FOOTER*/
 
 footer{
@@ -453,9 +468,38 @@ footer{
     font-family: 'Krub', sans-serif;
 }
 
+.formulario-mensaje{
+    font-family: 'Courier New', Courier, monospace;
+    background: #f66060;
+    padding: 0 15px;
+    border-radius: 5px;
+    text-align: center;
+    display: none ;
+}
+
+.formulario-mensaje-activo{
+    display: block;
+}
+
+
+.formulario-mensaje p{
+    margin: 0;;
+}
 
 
 
+
+/*VERIFY FORM*/
+
+.group-form-correct input{
+    border: 5px solid #00FF88;
+    border-radius: 10px;
+}
+
+.group-form-incorrect input{
+    border: 5px solid #bb2929;
+    border-radius: 10px;
+}
 
 
 

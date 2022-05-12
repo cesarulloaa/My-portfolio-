@@ -158,32 +158,46 @@
 				<!---<img src="IMAGENES/phone-call.png" class="phone-img">--->
 			</div>
 
-			<form>
-				<div class="group-form">
+			<!--FORM-->
+
+			<form id="formulario">
+				<div class="message__form">
 					<h2 class="title2">Contact</h2>
 					<p class="contact-bio">Do you want to contact me?</p>
 					<p class="contact-bio">Complete the form and i will contact you as soon as pobible.</p>
-
+				</div>
+				<div class="group-form" id="group__name">
 					<label class="label" for="name"></label>
 					<input type="text" name="name" id="name-last-name" class="input-form" placeholder="Your name" autocomplete="off" required>
 				</div>
-				<div class="group-form">
+
+				<div class="group-form" id="group__email">
 					<label class="label" for="email"></label>
 					<input type="email" name="email" id="email" class="input-form" placeholder="Your email" autocomplete="off" required>	 
 				</div>
-				<div class="group-form">
-					<label class="label" for="business"></label>
-					<input type="text" name="business" id="business" class="input-form" placeholder="Business" autocomplete="off" required>
+				<div class="group-form" id="group__subject">
+					<label class="label" for="subject"></label>
+					<input type="text" name="subject" id="subject" class="input-form" placeholder="Subject" autocomplete="off" required>
 				</div>
-				<div class="group-form">
+				<div>
 					<label class="label" for="message">Leave a message</label>
 					<textarea name="message" id="message" class="message-form"></textarea> 
 				</div>
 
-				<button class="send-button" type="submit">Submit</button>
+				<div class="formulario-mensaje" id="formulario-mensaje">
+					<p><b>ERROR:</b>Favor de completar todos los campos</p>
+				</div>
+
+				<div class="btn-enviar">
+					<button class="send-button" type="submit">Submit</button>
+					<p class="formulario-mensaje-exito" id="formulario-mensaje-exito">Successful</p>
+				</div>
+	
 			</form>
 
 		</section>
+
+		<script src="formulario.js"></script>
 
 	</body>		
 
