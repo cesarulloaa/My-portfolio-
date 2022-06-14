@@ -13,6 +13,8 @@ const campos = {
     asunto: false,
 }
 
+//validacion de formulario usando switch 
+
 const validarFormulario = (e) => {
     switch (e.target.name) {
         case 'name':
@@ -75,6 +77,7 @@ inputs.forEach((input) => {
 
 });
 
+//Añadiendo estilos de la validacion
 formulario.addEventListener('submit', (e) => {
     e.preventDefault();
     if (campos.name && campos.email && campos.subject){
