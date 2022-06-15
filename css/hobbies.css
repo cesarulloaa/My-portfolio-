@@ -1,6 +1,7 @@
 /* HOBBIES*/
 
 .container-hobbies, .hobbie-tittle{
+    width: auto;
     text-align: center;
     padding: 5rem;
     margin: 0;

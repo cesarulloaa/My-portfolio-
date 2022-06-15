@@ -1,6 +1,14 @@
 /*PRESENTATION*/
 
+.container-title{
+    width: 940px;
+    
+}
+
+
+
 .my-title{
+    width: auto;
     position: relative;
     display: flex;
     left: 50px;
@@ -29,27 +37,32 @@
     
 
 }
-       
+
+nav{
+    width: auto;
+}
 
 .social-media{
     width: 940px;
     margin: 0;
     padding: 100px;
+    
 }
 
 
 .social-media li{
     display: inline-block;
-    text-align: center;
     vertical-align: top;
-    margin: 0 1.5%;
+    margin: 0;
     width: 16px;
-    padding: 80px 60px;
+    padding: 80px;
     
 }
 
 .social-media #logo{
-    width: 16px;
+    width: 60px;
+    display: flex;
+    
 
 }
 
@@ -58,7 +71,7 @@
     display: flex ;
     top: 5em;
     width: 20rem;
-    padding: 20px;
+    padding: 2px;
     height: 20rem;
     left: 868px;
     border-radius: 20rem;

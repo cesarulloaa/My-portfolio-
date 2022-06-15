@@ -1,6 +1,7 @@
 /*SKILLS*/
 
-.container-skills .skills-tittle{
+.container-skills {
+    width: auto;
     text-align: center;
     padding: 2rem;
     margin: 0;
@@ -12,15 +13,19 @@
     color: #464646;
 }
 
+.skills-tittle {
+    text-align:center;
+    font-size: 32px;
+}
+
 .skill-section{
     display: flex;
     align-items: center;
     position: relative;
     justify-content: space-between;
-
     flex-basis: 50%;
-    margin: 0 150px;
-    padding: 10px 10px;
+    margin: 0 50px;
+    padding: 40px 40px;
     font-size: 4rem;
     text-align: center;
     border-radius: 1rem;
