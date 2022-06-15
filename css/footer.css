@@ -1,0 +1,27 @@
+/*FOOTER*/
+
+footer{
+    text-align: center;
+    padding: 40px;
+    font-size: 15px;
+    margin: 20px;
+    font-family: 'Krub', sans-serif;
+}
+
+.formulario-mensaje{
+    font-family: 'Courier New', Courier, monospace;
+    background: #f66060;
+    padding: 0 15px;
+    border-radius: 5px;
+    text-align: center;
+    display: none ;
+}
+
+.formulario-mensaje-activo{
+    display: block;
+}
+
+
+.formulario-mensaje p{
+    margin: 0;;
+}

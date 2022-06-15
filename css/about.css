@@ -1,0 +1,44 @@
+/*ABOUT*/
+
+.section-about{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 64px;
+    position: static;
+    width: 100%;
+    height: 353px;
+    left: 0px;
+    top: 520px;
+    background: #EAF2FD;
+    flex: none;
+    order: 2;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 32px 0px;
+}
+
+.section-about p{
+    width: 85%;
+    max-width: 1920px;
+    font-family: Raleway;
+    font-weight: 700;
+    margin: 0 auto;
+    margin-top: 2rem;
+    display: flex;
+    flex-flow: column wrap;
+
+}
+
+.section-about h2{
+    width: 100%;
+    max-width: 1920px;
+    text-align:center;
+    font-family: Raleway;
+    font-weight: bold;
+    margin: 0 auto;
+    margin-top: 2rem;
+    display: flex;
+    flex-flow: column wrap;
+
+}

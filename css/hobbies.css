@@ -1,0 +1,44 @@
+/* HOBBIES*/
+
+.container-hobbies, .hobbie-tittle{
+    text-align: center;
+    padding: 5rem;
+    margin: 0;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 32px;
+    line-height: 38px;
+    color: #464646;
+
+}
+
+.basket{
+    width: 60px;
+}
+
+.hobbie-section{
+    display: flex;
+    align-items: center;
+    position: relative;
+    justify-content: space-between;
+    flex-basis: 50%;
+    margin: 0 50px;
+    padding: 20px 20px;
+    font-size: 4rem;
+    text-align: center;
+   
+}
+
+.hobbie-description{
+    display: flex;
+    align-items: center;
+    position: relative;
+    font-size: 1rem;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    color: #464646;
+    font-weight: 700;
+    margin: 0.5rem 0;
+}

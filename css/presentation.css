@@ -1,0 +1,67 @@
+/*PRESENTATION*/
+
+.my-title{
+    position: relative;
+    display: flex;
+    left: 50px;
+    font-size: 3.25rem;
+    line-height: 3.815625rem;
+    font-weight: 800;
+    font-family: Raleway;
+    font-style: normal;
+    color: #464646;
+    margin: 50px;
+}
+
+
+.description{
+    position: relative;
+    display: flex;
+    left: 50px;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    margin: 50px;   
+    color: #464646;
+    
+    
+
+}
+       
+
+.social-media{
+    width: 940px;
+    margin: 0;
+    padding: 100px;
+}
+
+
+.social-media li{
+    display: inline-block;
+    text-align: center;
+    vertical-align: top;
+    margin: 0 1.5%;
+    width: 16px;
+    padding: 80px 60px;
+    
+}
+
+.social-media #logo{
+    width: 16px;
+
+}
+
+.profile-photo img{
+    position:absolute;
+    display: flex ;
+    top: 5em;
+    width: 20rem;
+    padding: 20px;
+    height: 20rem;
+    left: 868px;
+    border-radius: 20rem;
+   
+    
+}

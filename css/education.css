@@ -1,0 +1,45 @@
+/*EDUCATION*/
+
+
+.education-container{
+    padding: 7rem 0 4rem 0;
+    background-color: #EAF2FD;
+}
+
+/*.birrete{
+    display: flex;
+    align-items: center;
+    width: 80px;
+}*/
+
+.education-title{
+    font-family: Raleway;
+    font-size: 32px;
+    font-weight: bolder;
+    text-align: center;
+    margin: 0px;
+    top: 150px;
+}
+
+
+.logo{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    width: 368px;
+    height: 286px;
+    margin: 0 auto;
+    padding: 1.5rem;
+}
+
+
+
+
+.fecha, .education-descirption{
+    font-family: Raleway;
+    font-weight: bold;
+    font-size: 15px;
+    text-align: center;
+}

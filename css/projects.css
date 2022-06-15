@@ -1,0 +1,58 @@
+/*PROJECTS*/
+
+.projects-title{
+    font-family: Raleway;
+    font-weight: bold;
+    font-size: 32px;
+}
+
+.container-projects{
+    text-align: center;
+    padding: 3rem;
+    margin: 0;
+}
+
+.image-project{
+    position: static;
+    width: 752px;
+    height: 406px;
+    left: 0px;
+    top: 0px;
+    flex: none;
+    order: 0;
+    padding: 1em;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 0px 16px;
+}
+
+.clikc-here{
+    display: inline-block;
+    width: 150px;
+    height: 50px;
+    font-family: Raleway;
+    font-size: 15px;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    background: rgb(172, 255, 255);
+    border-radius: 15px;
+    box-sizing: border-box;
+    box-shadow: 5px 5px 5px 0px;
+    padding: 15px;
+    cursor: pointer;
+   
+}
+
+.clikc-here:hover{
+    color: #72a7f0;
+    background:transparent;
+    border: 2px solid #EAF2FD;
+    font-weight: bold;
+}
+
+.project-name{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    padding: 1em;
+}

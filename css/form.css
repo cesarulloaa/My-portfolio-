@@ -1,0 +1,100 @@
+/*FORM*/
+
+.contact-form{
+    padding: 7rem 0 4rem 0;
+    background-color: #EAF2FD;
+}
+
+form{
+    width: 450px;
+    margin: auto;
+    background: #f5f5f5;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    border-radius: 7px;
+}
+
+.title2{
+    text-align: center;
+    margin: 0;
+    margin-bottom: 20px;
+    font-size: 30px;
+    font-family: Raleway;
+}
+
+.contact-bio{
+    font-family: Raleway;
+    font-size: 15px;
+    font-weight: 700;
+    text-align: center;
+    margin: 0;
+    margin-bottom: 10px;
+
+}
+
+
+.input-form, .message-form, .send-button{
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 7px;
+    box-sizing: border-box;
+    border: none;
+    font-size: 17px;
+    font-family: monospace;
+}
+
+
+.label{
+    font-family: Raleway;
+    font-size: 20px;
+    font-weight: bold;
+   
+}
+
+.message-form{
+    min-height: 100px;
+    max-height: 200px;
+    max-width: 100%;
+}
+
+
+.send-button{
+    background: #18CDB7;
+    padding: 20px;
+    border-radius: 7px;
+}
+
+.send-button:hover{
+    color: #00FF88;
+    cursor: pointer;
+    background: transparent;
+    transition: 500ms;
+    transform: scale(1.2);
+}
+
+
+.formulario-mensaje-exito{
+    font-size: 14px;
+    color: #119200;
+    text-align: center;
+    display: none; 
+}
+
+.formulario-mensaje-exito-activo{
+    display: block;
+    
+}
+
+
+/*VERIFY FORM*/
+
+.group-form-correct input{
+    border: 5px solid #00FF88;
+    border-radius: 10px;
+}
+
+.group-form-incorrect input{
+    border: 5px solid #bb2929;
+    border-radius: 10px;
+}
